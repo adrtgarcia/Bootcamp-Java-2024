@@ -16,17 +16,23 @@ public class OrdenacaoPessoas {
     }
 
     public List<Pessoa> ordenarPorIdade() {
-        if (pessoaList.isEmpty()) throw new RuntimeException("Lista vazia.");
-        List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList);
-        Collections.sort(pessoasPorIdade);
-        return pessoasPorIdade;
+        if (pessoaList.isEmpty()) {
+            throw new RuntimeException("Lista vazia.");
+        } else { 
+            List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList);
+            Collections.sort(pessoasPorIdade);
+            return pessoasPorIdade;
+        }
     }
 
     public List<Pessoa> ordenarPorAltura() {
-        if (pessoaList.isEmpty()) throw new RuntimeException("Lista vazia.");
-        List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoaList);
-        Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
-        return pessoasPorAltura;
+        if (pessoaList.isEmpty()) { 
+            throw new RuntimeException("Lista vazia.");
+        } else {
+            List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoaList);
+            Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
+            return pessoasPorAltura;
+        }
     }
 
     public static void main(String[] args) {
