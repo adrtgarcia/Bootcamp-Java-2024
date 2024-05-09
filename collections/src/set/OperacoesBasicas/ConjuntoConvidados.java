@@ -24,7 +24,7 @@ public class ConjuntoConvidados {
                 }
             }
             if (convidadoParaRemover == null) {
-                throw new RuntimeException("Convidado não encontrado.");
+                System.out.println("Convidado não encontrado.");
             } else {
                 convidadoSet.remove(convidadoParaRemover);
             }
