@@ -14,8 +14,8 @@ public class ConferePositivos {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
         Predicate<Integer> todosPositivos = numero -> numero > 0;
-        boolean resultado = numeros.stream()
+        boolean saoTodosPositivos = numeros.stream()
                                 .allMatch(todosPositivos);
-        System.out.println("São todos positivos? " + resultado);
+        System.out.println("São todos positivos? " + saoTodosPositivos);
     }
 }

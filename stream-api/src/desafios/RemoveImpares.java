@@ -17,6 +17,6 @@ public class RemoveImpares {
                                             .filter(numero -> numero % 2 == 0)
                                             .collect(Collectors.toList());
 
-        semImpares.forEach(System.out::println);
+        System.out.println("Lista sem ímpares: " + semImpares);
     }
 }

@@ -14,10 +14,10 @@ public class OrdemNumerica {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
         
         List<Integer> numerosOrdenados = numeros.stream()
-                                                .distinct() // remove duplicatas, se houver
-                                                .sorted()   // ordena os números
+                                                .distinct()
+                                                .sorted()  
                                                 .collect(Collectors.toList());
         
-        numerosOrdenados.forEach(System.out::println); // exibe os números ordenados
+        System.out.println("Lista em ordem crescente: " + numerosOrdenados);
     }
 }

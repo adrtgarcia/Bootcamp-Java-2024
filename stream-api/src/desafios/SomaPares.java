@@ -16,6 +16,6 @@ public class SomaPares {
             .filter(n -> n % 2 == 0)
             .reduce(0, Integer::sum);
         
-        System.out.println(somaPares);
+        System.out.println("Soma dos números pares: " + somaPares);
     }
 }
