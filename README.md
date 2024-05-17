@@ -8,3 +8,4 @@ Os desafios de Projeto propostos no bootcamp têm seus respectivos repositórios
 - [Criando um Pequeno Sistema para Validação de Processo Seletivo](https://github.com/aduarte09/dio-lab-processo-seletivo-e-contador)
 - [Trilha de Java Básico: Controle de Fluxo](https://github.com/aduarte09/dio-lab-processo-seletivo-e-contador)
 - [Orientação a Objetos e UML: Diagramação de Classes do iPhone](https://github.com/aduarte09/dio-lab-diagrama-iphone)
+- [Criando um Banco Digital com Java e Orientação a Objetos](https://github.com/aduarte09/dio-lab-banco-digital)
