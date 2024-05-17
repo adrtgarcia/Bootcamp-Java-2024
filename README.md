@@ -9,3 +9,4 @@ Os desafios de Projeto propostos no bootcamp têm seus respectivos repositórios
 - [Trilha de Java Básico: Controle de Fluxo](https://github.com/aduarte09/dio-lab-processo-seletivo-e-contador)
 - [Orientação a Objetos e UML: Diagramação de Classes do iPhone](https://github.com/aduarte09/dio-lab-diagrama-iphone)
 - [Criando um Banco Digital com Java e Orientação a Objetos](https://github.com/aduarte09/dio-lab-banco-digital)
+- [Abstraindo um Bootcamp Usando Orientação a Objetos em Java](https://github.com/aduarte09/dio-lab-abstraindo-bootcamp)
