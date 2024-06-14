@@ -11,3 +11,4 @@ Os desafios de Projeto propostos no bootcamp têm seus respectivos repositórios
 - [Criando um Banco Digital com Java e Orientação a Objetos](https://github.com/aduarte09/dio-lab-banco-digital)
 - [Abstraindo um Bootcamp Usando Orientação a Objetos em Java](https://github.com/aduarte09/dio-lab-abstraindo-bootcamp)
 - [Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework](https://github.com/aduarte09/dio-lab-design-patterns)
+- [Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway](https://github.com/aduarte09/dio-lab-api-rest)
